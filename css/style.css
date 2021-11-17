@@ -227,6 +227,37 @@ header {
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
-    
 }
 /* Footer */
+footer {
+    color: white;
+}
+.end-page {
+    margin-top: 400px;
+    height: 600px;
+    background-color: #23272A;
+}
+
+footer h4 {
+    color: #7289DA;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+h5 {
+    color: #7289DA;
+    font-size: 18px; 
+    margin-top: 60px;   
+}
+
+.border {
+    width: 100%;
+    border-top: 1px solid #7289DA;
+    margin-top: 30px;
+}
+
+.last-row {
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+}
