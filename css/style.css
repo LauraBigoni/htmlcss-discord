@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica',Arial, sans-serif;
 }
 
 /* Utilities */
@@ -31,9 +31,14 @@ body {
     width: 60%;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 .text-right {
     text-align: right;
 }
+
 
 .text-center {
     text-align: center;
@@ -42,7 +47,7 @@ body {
 .btn {
     text-decoration: none;
     background-color:white;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .btn-light {
@@ -50,6 +55,7 @@ body {
     text-decoration: none;
     background-color:white;
     text-align: center;
+    margin-right: 20px;
 }
 
 .btn-light:hover {
@@ -74,15 +80,18 @@ body {
 .btn-small {
     border-radius: 20px;
     padding: 10px 15px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .btn-big {
     border-radius: 40px;
     padding: 20px 25px;
-    font-size: 16px;
+    font-size: 21px;
 }
 
+.content {
+    max-width: 600px;
+}
 /* Header */
 
 /* ----top-bar---- */
@@ -93,7 +102,7 @@ header {
 .top-bar {
     width: 100%;
     height: 80px;
-    background-color: #3161E0;
+    background-color: #255EE9;
     line-height: 80px;
 }
 
@@ -105,7 +114,7 @@ header {
 
 .top-bar .top-menu, 
 .top-bar .top-menu li {
-    font-size: 16px;
+    font-size: 18px;
     list-style-type: none;
     display: inline-block;
 }
@@ -124,18 +133,100 @@ header {
 }
 
 /* ----jumbotron---- */
-#jumbotron {
-    height: 600px;
+.jumbotron {
+    height: 620px;
     background-image: url('/img/jumbo.png');
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.jumbotron .contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.jumbotron h1 {
+    font-size: 62px;
+    margin-bottom: 40px;
+}
+
+.jumbotron p {
+    font-size: 22px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.arrow::before {
+    content: '\1F817';
+    font-weight: bolder;
+    font-size: 22px;
+    vertical-align: middle;
+
 }
 
 /* Main */
+.full-page {
+    height: 700px;
+    position: relative;
+}
 
+.full-page .contain {
+    position: relative;
+    left: 10%;
+    top: 150px;
+    padding: 0 100px;
+}
 
-/* Section */
+.full-page .contain-left {
+    position: relative;
+    right: 30px;
+    top: 150px;
+    padding-right: 80px;
+}
 
+.full-page h2 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
 
+.full-page p {
+    font-size: 22px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.img-left {
+    position: relative;
+    right: 10%;
+    top: 120px;
+}
+
+.img-right {
+    position: relative;
+    top: 120px;
+    left: 10%;
+}
+
+.img-center {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.img-stars {
+    position: relative;
+    bottom: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.full-page h4 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
 /* Footer */
