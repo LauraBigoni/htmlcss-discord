@@ -200,7 +200,7 @@ header {
 
 /* Main */
 .full-page {
-    padding: 40px 0;
+    padding: 50px 0;
     position: relative;
 }
 
@@ -215,7 +215,7 @@ header {
     position: relative;
     right: 30px;
     top: 0px;
-    padding-right: 0 50px;
+    padding: 0 50px;
 }
 
 .full-page h2 {
@@ -317,10 +317,14 @@ h5 {
     height: 300px;
     line-height: 30px;
 }
-.end-bar .section ul a {
+
+.end-page .section-bot li,
+.end-page .section-bot li a {
+    color: white;
     list-style-type: none;
     text-decoration: none;
 }
+
 .border {
     width: 100%;
     border-top: 1px solid #7289DA;
