@@ -48,7 +48,6 @@ body {
     text-align: right;
 }
 
-
 .text-center {
     text-align: center;
 }
@@ -141,6 +140,9 @@ header {
     width: auto;
     height: 40px;
     vertical-align: middle;
+}
+ul {
+    display: inline;
 }
 
 .top-bar .top-menu, 
